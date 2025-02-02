@@ -1,0 +1,34 @@
+.container {
+  margin-top: 10rem;
+}
+.heading {
+  margin: 3.4rem 0;
+  color: #e2e8f0;
+}
+.certificate {
+  text-decoration: none;
+  color: inherit;
+}
+.certificate:hover {
+  color: #5fd3d3;
+}
+.certificate:hover .arrow {
+  font-size: 0.9rem;
+  transition: 0.1s;
+}
+.resume {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.resume:hover {
+  color: #5fd3d3;
+}
+.resume:hover .arrow {
+  font-size: 1rem;
+  transition: 0.1s;
+}
+.arrow {
+  font-size: 0.7rem;
+}

@@ -1,0 +1,10 @@
+.span {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0rem 1rem;
+  font-size: small;
+  color: #5fd3d3;
+  background-color: #5fd3d322;
+}

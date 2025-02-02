@@ -1,0 +1,16 @@
+.container {
+  margin-top: 1.5rem;
+}
+.icon {
+  color: rgba(255, 255, 255, 0.432);
+  margin-left: 1.8rem;
+  font-size: 1.7rem;
+}
+.icon:hover {
+  color: rgba(255, 255, 255, 0.726);
+  transform: scale(1.1, 1.1);
+}
+.a {
+  text-decoration: none;
+  color: black;
+}

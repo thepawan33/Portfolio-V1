@@ -1,0 +1,61 @@
+.container {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.container:hover {
+  box-shadow: 0px 1px #88888883;
+  background-color: #88888816;
+  transition: 0.2s;
+}
+
+.header {
+  font-weight: bold;
+  color: #e2e8f0;
+}
+
+.date {
+  font-style: italic;
+  font-size: 1rem;
+  color: #888;
+}
+
+.description {
+  color: #93a4b8;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+.feature {
+  color: #93a4b8;
+  transition: 0.5s;
+  display: none;
+}
+.view {
+  display: initial;
+  cursor: pointer;
+}
+.container:hover .view {
+  color: #5fd3d3;
+  cursor: pointer;
+}
+.less {
+  display: none;
+}
+.container:hover .less {
+  color: #5fd3d3;
+  cursor: pointer;
+}
+.checkbox {
+  display: none;
+}
+.checkbox:checked ~ .feature {
+  display: initial;
+}
+.checkbox:checked ~ .less {
+  display: initial;
+  display: block;
+  margin-top: 1rem;
+}
+.checkbox:checked ~ .view {
+  display: none;
+}

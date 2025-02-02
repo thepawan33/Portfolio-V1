@@ -1,0 +1,55 @@
+.container {
+  margin-bottom: 0.3rem;
+}
+.main {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.308);
+}
+
+.main:hover {
+  cursor: pointer;
+  color: #e2e8f0;
+}
+.span {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: 0.3s ease;
+}
+.main:hover .span {
+  transform: translateX(2.5rem);
+}
+.arrow {
+  display: inline-block;
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+.main:hover .arrow {
+  transform: scaleX(4);
+}
+
+.clickArrow {
+  display: inline-block;
+  transform-origin: left;
+  transition: transform 0.2s ease;
+  color: #e2e8f0;
+  transform: scaleX(4);
+}
+.clickSpan {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: 0.3s ease;
+  color: #e2e8f0;
+  transform: translateX(2.5rem);
+}
+@media (max-width: 960px) {
+  .container {
+    display: none;
+  }
+}

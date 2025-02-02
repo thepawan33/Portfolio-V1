@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0px;
+}
+.hamb {
+  background-color: transparent;
+  width: 6rem;
+  /* display: none; */
+}
+@media (max-width: 960px) {
+  .container {
+    align-content: center;
+    height: 83vh;
+  }
+}

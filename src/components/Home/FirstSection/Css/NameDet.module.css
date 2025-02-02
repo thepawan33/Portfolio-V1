@@ -1,0 +1,36 @@
+.h1 {
+  font-size: 3.5rem;
+  color: #e2e8f0;
+}
+.h2 {
+  font-size: 1.2rem;
+  color: #e2e8f0;
+}
+.img {
+  height: 8rem;
+  width: auto;
+  margin-left: 5rem;
+  border-radius: 8rem;
+}
+.p1 {
+  color: #93a4b8;
+  width: 320px;
+}
+@media (max-width: 960px) {
+  .p1 {
+    width: auto;
+  }
+}
+@media (max-width: 353px) {
+  .h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 306px) {
+  .h1 {
+    font-size: 2rem;
+  }
+  .img {
+    margin-left: 0;
+  }
+}
