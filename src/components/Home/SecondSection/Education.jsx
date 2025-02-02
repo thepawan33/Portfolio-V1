@@ -1,5 +1,5 @@
 import Card from "../../Reusable/Card/Card";
-import styles from "./Css/Education.module.Css";
+import styles from "./Css/Education.module.css";
 export default function Education() {
   return (
     <div className={styles.container}>
