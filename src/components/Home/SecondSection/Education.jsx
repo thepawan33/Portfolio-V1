@@ -34,7 +34,12 @@ export default function Education() {
       <br />
       <br />
       <br />
-      <a className={styles.resume}>
+      <a
+        className={styles.resume}
+        href={
+          "https://drive.google.com/file/d/1GJCwy-J6OdJiPOaeVojL749jPJrXpvc1/view?usp=drivesdk"
+        }
+      >
         View Full Résumé <span className={styles.arrow}>&#8599;</span>
       </a>
     </div>

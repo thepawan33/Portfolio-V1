@@ -8,7 +8,7 @@ export default function NameDet() {
 
   return (
     <div className={styles.container}>
-      <img className={styles.img} src="./assets/myImg.jpeg" alt="img" />
+      <img className={styles.img} src="./assets/myimg-1.jpeg" alt="img" />
 
       <h1 className={styles.h1}>Pavan Singh</h1>
       <h2 className={styles.h2}>MERN Stack Developer</h2>
