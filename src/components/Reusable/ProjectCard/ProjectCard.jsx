@@ -1,5 +1,5 @@
 import Img from "./Img";
-import styles from "./Css/ProjectCard.module.Css";
+import styles from "./Css/ProjectCard.module.css";
 import BtnInfo from "./BtnInfo";
 
 export default function ProjectCard({ t, prjctLnk, imgLink, heading, title }) {
