@@ -2,6 +2,8 @@
 
 This is a personal portfolio built with React and Vite, designed to showcase my skills, projects, work experience, and educational background. The portfolio provides a detailed view of my journey in software development and serves as a platform for potential employers or collaborators to explore my work.
 
+project link (https://ps-personal.netlify.app)
+
 ## Features
 
 - **Project Showcase**: Displays various full-stack and front-end projects that I've worked on, along with brief descriptions and links to explore further.
@@ -21,5 +23,4 @@ This portfolio serves as a professional introduction, showcasing my technical sk
 
 ## Links
 
-- [Portfolio Website](https://your-portfolio-link.com)
-- [GitHub Repository](https://github.com/yourusername/my-portfolio-project)
+- [Portfolio Website](https://ps-personal.netlify.app)
